@@ -94,6 +94,11 @@ nav {
     flex-direction: column;
 }
 
+.about-me__info {
+    display: flex;
+    flex-direction: column;
+}
+
 .about-me__info--container {
     display: flex;
     flex-direction: column;
@@ -125,7 +130,7 @@ nav {
     margin-bottom: 28px;
 }
 
-.about-me--link {
+.about-me__link {
     font-size: 20px;
     color:#292a2b;
     text-decoration: none;
