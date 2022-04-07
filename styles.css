@@ -27,6 +27,7 @@ li {
 }
 
 .flex {
+    padding-top: 16px;
     display: flex;
 }
 
@@ -66,6 +67,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #f8f8f8;
 }
 
 .nav__link--list {
