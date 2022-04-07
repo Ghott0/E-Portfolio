@@ -44,6 +44,10 @@ li {
     color: #5021c8;
 }
 
+section:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
 /* Nav bar */
 
 nav {
@@ -145,5 +149,5 @@ nav {
 
 .about-me__img {
     width: 100%;
-    padding: 32px 0;
+    padding: 64px 0;
 }
