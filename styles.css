@@ -34,6 +34,10 @@ li {
     flex: 1; /* this makes it the entire height*/
 }
 
+.container {
+    padding: 50px 0;
+}
+
 .row {
     width: 100%;
     max-width: 800px;
@@ -44,8 +48,12 @@ li {
     color: #5021c8;
 }
 
-section:nth-child(even) {
+section:nth-child(even) {  /* this makes every other section of the color underneath */
     background-color: #f8f8f8;
+}
+
+.section__title {
+    margin-bottom: 20px;
 }
 
 /* Nav bar */
