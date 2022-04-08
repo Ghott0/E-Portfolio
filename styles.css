@@ -29,6 +29,9 @@ p {
 a {
     text-decoration: none;
     position: relative;
+}
+
+i {
     transition: all 200ms ease;
 }
 
